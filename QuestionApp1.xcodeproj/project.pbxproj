@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E7932F302416263800DC99EE /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7932F2F2416263800DC99EE /* ChangeColor.swift */; };
+		E7932F3424164C9A00DC99EE /* batsuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7932F3124164C9A00DC99EE /* batsuSound.mp3 */; };
+		E7932F3524164C9A00DC99EE /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7932F3224164C9A00DC99EE /* sound.mp3 */; };
+		E7932F3624164C9A00DC99EE /* maruSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7932F3324164C9A00DC99EE /* maruSound.mp3 */; };
 		E7E4A2A82414D09B0088996C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4A2A72414D09B0088996C /* AppDelegate.swift */; };
 		E7E4A2AA2414D09B0088996C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4A2A92414D09B0088996C /* SceneDelegate.swift */; };
 		E7E4A2AC2414D09B0088996C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4A2AB2414D09B0088996C /* ViewController.swift */; };
 		E7E4A2AF2414D09B0088996C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E4A2AD2414D09B0088996C /* Main.storyboard */; };
 		E7E4A2B12414D09C0088996C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E4A2B02414D09C0088996C /* Assets.xcassets */; };
 		E7E4A2B42414D09C0088996C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E4A2B22414D09C0088996C /* LaunchScreen.storyboard */; };
-		E7E4A2BE2414E4880088996C /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E4A2BB2414E4880088996C /* sound.mp3 */; };
-		E7E4A2BF2414E4880088996C /* maruSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E4A2BC2414E4880088996C /* maruSound.mp3 */; };
-		E7E4A2C02414E4880088996C /* batsuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E4A2BD2414E4880088996C /* batsuSound.mp3 */; };
 		E7E4A2C52414EB6B0088996C /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4A2C42414EB6B0088996C /* NextViewController.swift */; };
 		E7E4A2C92414F5600088996C /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4A2C82414F5600088996C /* ImagesModel.swift */; };
 		E7E4A2CB2414F9FA0088996C /* ImagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4A2CA2414F9FA0088996C /* ImagesList.swift */; };
@@ -28,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		E7932F2F2416263800DC99EE /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
+		E7932F3124164C9A00DC99EE /* batsuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = batsuSound.mp3; sourceTree = "<group>"; };
+		E7932F3224164C9A00DC99EE /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		E7932F3324164C9A00DC99EE /* maruSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maruSound.mp3; sourceTree = "<group>"; };
 		E7E4A2A42414D09B0088996C /* QuestionApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E4A2A72414D09B0088996C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7E4A2A92414D09B0088996C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,9 +39,6 @@
 		E7E4A2B02414D09C0088996C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7E4A2B32414D09C0088996C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7E4A2B52414D09C0088996C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7E4A2BB2414E4880088996C /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../../../../../Desktop/sound.mp3; sourceTree = "<group>"; };
-		E7E4A2BC2414E4880088996C /* maruSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maruSound.mp3; path = ../../../../../../Desktop/maruSound.mp3; sourceTree = "<group>"; };
-		E7E4A2BD2414E4880088996C /* batsuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = batsuSound.mp3; path = ../../../../../../Desktop/batsuSound.mp3; sourceTree = "<group>"; };
 		E7E4A2C42414EB6B0088996C /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		E7E4A2C82414F5600088996C /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
 		E7E4A2CA2414F9FA0088996C /* ImagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesList.swift; sourceTree = "<group>"; };
@@ -83,9 +83,9 @@
 				E7E4A2C32414EA380088996C /* Controller */,
 				E7E4A2B22414D09C0088996C /* LaunchScreen.storyboard */,
 				E7E4A2B52414D09C0088996C /* Info.plist */,
-				E7E4A2BD2414E4880088996C /* batsuSound.mp3 */,
-				E7E4A2BC2414E4880088996C /* maruSound.mp3 */,
-				E7E4A2BB2414E4880088996C /* sound.mp3 */,
+				E7932F3124164C9A00DC99EE /* batsuSound.mp3 */,
+				E7932F3324164C9A00DC99EE /* maruSound.mp3 */,
+				E7932F3224164C9A00DC99EE /* sound.mp3 */,
 			);
 			path = QuestionApp1;
 			sourceTree = "<group>";
@@ -182,12 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E4A2BE2414E4880088996C /* sound.mp3 in Resources */,
-				E7E4A2BF2414E4880088996C /* maruSound.mp3 in Resources */,
+				E7932F3424164C9A00DC99EE /* batsuSound.mp3 in Resources */,
 				E7E4A2B42414D09C0088996C /* LaunchScreen.storyboard in Resources */,
 				E7E4A2B12414D09C0088996C /* Assets.xcassets in Resources */,
-				E7E4A2C02414E4880088996C /* batsuSound.mp3 in Resources */,
 				E7E4A2AF2414D09B0088996C /* Main.storyboard in Resources */,
+				E7932F3524164C9A00DC99EE /* sound.mp3 in Resources */,
+				E7932F3624164C9A00DC99EE /* maruSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
