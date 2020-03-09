@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7932F302416263800DC99EE /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7932F2F2416263800DC99EE /* ChangeColor.swift */; };
 		E7E4A2A82414D09B0088996C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4A2A72414D09B0088996C /* AppDelegate.swift */; };
 		E7E4A2AA2414D09B0088996C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4A2A92414D09B0088996C /* SceneDelegate.swift */; };
 		E7E4A2AC2414D09B0088996C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4A2AB2414D09B0088996C /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7932F2F2416263800DC99EE /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
 		E7E4A2A42414D09B0088996C /* QuestionApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E4A2A72414D09B0088996C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7E4A2A92414D09B0088996C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				E7E4A2CE24160D200088996C /* Animal.swift */,
 				E7E4A2D024160DE50088996C /* Human.swift */,
 				E7E4A2D2241610AA0088996C /* WithOutMP3.swift */,
+				E7932F2F2416263800DC99EE /* ChangeColor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				E7E4A2D124160DE50088996C /* Human.swift in Sources */,
 				E7E4A2C52414EB6B0088996C /* NextViewController.swift in Sources */,
 				E7E4A2A82414D09B0088996C /* AppDelegate.swift in Sources */,
+				E7932F302416263800DC99EE /* ChangeColor.swift in Sources */,
 				E7E4A2D3241610AA0088996C /* WithOutMP3.swift in Sources */,
 				E7E4A2AA2414D09B0088996C /* SceneDelegate.swift in Sources */,
 				E7E4A2C92414F5600088996C /* ImagesModel.swift in Sources */,

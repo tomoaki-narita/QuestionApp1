@@ -36,14 +36,30 @@ class ViewController: UIViewController,NowScoreDelegate {
     //WithOutMP3クラスを実体化
 //    var withOutMP3 = WithOutMP3()
     
-    //SoundFileクラスを実体化
+    //soundFileと言う名前でSoundFileクラスを実体化
     var soundFile = SoundFile()
     
+    //changeColorと言う名前でChangeColorクラスを入れる
+    var changeColor = ChangeColor()
+    
+    //gradientLayerと言う名前でCAGradientLayerクラスを入れる
+    var gradientLayer = CAGradientLayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       
+        //viewがロードされた時にグラデーションを作る
+        //changeColorは返り値なのでCAGradientLayerクラスで受け取る
+      gradientLayer = changeColor.changeColor(topR: 0.07, topG: 0.13, topB: 0.26, topAlpha: 1.0, bottomR: 0.54, bottomG: 0.74, bottomB: 0.74, bottomAlpha: 1.0)
+        
+        //gradientLayerのframeにviewのbounds(全体と言う意味)を入れる
+        gradientLayer.frame = view.bounds
+        
+        //viewのlayerのinsertSublayer(layerを使うときのコード)
+        view.layer.insertSublayer(gradientLayer, at: 0)
+        
+        //imageViewの角を丸くする
+        imageView.layer.cornerRadius = 20.0
     }
     
     //画面遷移して戻ってきた時にcorrectCount,wrongCount,questionNumber,を0に戻すメソッド
@@ -155,6 +171,9 @@ class ViewController: UIViewController,NowScoreDelegate {
            }
     //今のscoreを反映
     func nowScore(score: Int) {
+        
+        //最高得点だった場合、画面を戻った時に音声を流す
+        soundFile.playSound(fileName: "sound", extentionName: "mp3")
         
         //maxScoreLabelのtextにscoreをString型で入れる
         maxScoreLabel.text = String(score)
